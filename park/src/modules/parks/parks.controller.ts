@@ -4,7 +4,7 @@ import { CreateParkDto } from './dto/create-park.dto';
 import { IParkUpdate } from './dto/update-park.dto';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { AllExceptionsFilter } from 'src/lib/rpc-exeptionFilter';
-import { IFindOne } from './interfaces/p.controller';
+import { IFindOne } from './interfaces/park.controller';
 import { ResData } from 'src/lib/resData';
 import { ParkEntity } from './entities/park.entity';
 
